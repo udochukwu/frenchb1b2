@@ -1,0 +1,15 @@
+---
+description: How to add the next French textbook chapter from PDF scans
+alwaysApply: true
+---
+
+# Textbook chapters
+
+This repo is a visual replica of a French grammar manual (Next.js + Tailwind). Follow the playbook in `AGENTS.md` (below the Next.js agent-rules block).
+
+When the user uploads the next chapter:
+
+- Typeset uploaded pages only; do not invent missing sheets.
+- Mirror chapter 2: `content/chapters/0N.ts`, `components/chapters/chapter-N/ChapterN.tsx`, `app/chapters/N/page.tsx`, then append `chapterN` in `src/content/chapters/index.ts`.
+- Reuse `src/components/textbook/`. Keep exercises visual-only (dotted lines, no grading) unless asked.
+- Do not edit plan files. Do not remove the Next.js block at the top of `AGENTS.md`.
