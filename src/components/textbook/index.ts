@@ -1,5 +1,7 @@
 export { Highlight, Term, Rich, Example, CrossRef } from "./highlight";
 export { TextbookPage, ChapterHeader, ChapterTab } from "./page";
+export { EnglishLessonPanel } from "./EnglishLessonPanel";
+export { ChapterLayout } from "./ChapterLayout";
 export {
   SectionBar,
   SectionDivider,

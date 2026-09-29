@@ -10,6 +10,8 @@ This repo is a visual replica of a French grammar manual (Next.js + Tailwind). F
 When the user uploads the next chapter:
 
 - Typeset uploaded pages only; do not invent missing sheets.
+- Transcribe wording from the scans verbatim; do not paraphrase.
+- Add `src/content/lessons/0N.ts` and pass it to `ChapterLayout` so the English lesson panel is present. Cover every numbered rule, Attention, and NB from the sheets; use the book’s French examples; do not leave inventories as `…`.
 - Mirror chapter 2: `content/chapters/0N.ts`, `components/chapters/chapter-N/ChapterN.tsx`, `app/chapters/N/page.tsx`, then append `chapterN` in `src/content/chapters/index.ts`.
 - Reuse `src/components/textbook/`. Keep exercises visual-only (dotted lines, no grading) unless asked.
 - Do not edit plan files. Do not remove the Next.js block at the top of `AGENTS.md`.

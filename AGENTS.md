@@ -12,6 +12,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 Visual replica of a printed grammar manual. The user uploads PDF chapter scans; typeset them as stacked page sheets. Do not invent pages that were not uploaded.
 
+Transcribe wording from the scans verbatim (rules, examples, exercises). Do not paraphrase, shorten, or rewrite.
+
 ## Defaults
 
 - **Visual-only exercises** until the user asks otherwise: dotted blanks and printed prompts, no inputs, no answer keys, no grading.
@@ -26,10 +28,11 @@ Mirror chapter 2.
 
 1. `src/content/chapters/0N.ts` — `chapterN` metadata (`number`, `title`, `tabLabel`, `slug`, `pages`, `summary`) plus exercise lists / overviews. Use `*word*` in strings for cyan article highlights (`Rich`).
 2. `src/components/chapters/chapter-N/ChapterN.tsx` — one `TextbookPage` per printed page (`pageNumberSide`: left on even, right on odd).
-3. `src/app/chapters/N/page.tsx` — `ChapterTab number={n} label={tabLabel}`, back link to `/`.
-4. Export `chapterN` from `src/content/chapters/index.ts` and add it to the `chapters` array (home page maps that catalog).
+3. `src/content/lessons/0N.ts` — English lesson (`Lesson` type: intro + sections with paragraphs and FR/EN examples). Teach the chapter’s rules in English; do not translate the grammar-book French. Cover every numbered rule, Attention, and NB from the sheets; use the book’s French examples; do not leave inventories as `…`.
+4. `src/app/chapters/N/page.tsx` — wrap with `ChapterLayout` (tab, back link, English-lesson toggle) and pass `lessonN`.
+5. Export `chapterN` from `src/content/chapters/index.ts` and add it to the `chapters` array (home page maps that catalog).
 
-Primitives: `TextbookPage`, `ChapterHeader`, `ChapterTab`, `SectionBar`, `SectionDivider`, `Subhead`, `TealHead`, `Rule`, `Example`, `Rich`, `Term`, `AttentionBox`, `ExerciseBox`, `Nb`, `Blank`, `BlankLine`, `ExerciseItem`, `ArrowItem`, `SquareItem`, `CrossRef`.
+Primitives: `TextbookPage`, `ChapterHeader`, `ChapterTab`, `ChapterLayout`, `EnglishLessonPanel`, `SectionBar`, `SectionDivider`, `Subhead`, `TealHead`, `Rule`, `Example`, `Rich`, `Term`, `AttentionBox`, `ExerciseBox`, `Nb`, `Blank`, `BlankLine`, `ExerciseItem`, `ArrowItem`, `SquareItem`, `CrossRef`.
 
 ## Home
 

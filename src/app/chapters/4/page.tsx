@@ -1,8 +1,8 @@
-import { ChapterTab } from "@/components/textbook";
+import { ChapterLayout } from "@/components/textbook";
 import { Chapter4 } from "@/components/chapters/chapter-4/Chapter4";
 import { chapter4 } from "@/content/chapters/04";
+import { lesson4 } from "@/content/lessons/04";
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "4. Le nom — Manuel de français",
@@ -10,18 +10,13 @@ export const metadata: Metadata = {
 
 export default function Chapter4Page() {
   return (
-    <div className="relative min-h-full bg-tb-canvas">
-      <ChapterTab number={chapter4.number} label={chapter4.tabLabel} />
-      <header className="mx-auto flex max-w-[820px] items-center justify-between px-6 pt-6 text-sm">
-        <Link
-          href="/"
-          className="font-medium text-tb-teal hover:text-tb-cyan"
-        >
-          ← Manuel
-        </Link>
-        <span className="text-tb-muted">Chapitre 4</span>
-      </header>
+    <ChapterLayout
+      number={chapter4.number}
+      tabLabel={chapter4.tabLabel}
+      chapterLabel="Chapitre 4"
+      lesson={lesson4}
+    >
       <Chapter4 />
-    </div>
+    </ChapterLayout>
   );
 }
