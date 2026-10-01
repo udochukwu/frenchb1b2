@@ -5,3 +5,5 @@ export { lesson3 } from "./03";
 export { lesson4 } from "./04";
 export { lesson5 } from "./05";
 export { lesson6 } from "./06";
+export { lesson7 } from "./07";
+export { lesson8 } from "./08";
