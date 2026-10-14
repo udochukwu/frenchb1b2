@@ -78,7 +78,7 @@ export const exerciseD = [
 ] as const;
 
 export const exerciseE = [
-  "Néron était l'empereur le plus méconnu.",
+  "Néron était l'empereur le plus cruel.",
   "Palissy était l'inventeur le plus connu.",
   "Nicolas est l'élève le plus turbulent.",
   "Le mont Blanc est le sommet le plus élevé d'Europe.",
