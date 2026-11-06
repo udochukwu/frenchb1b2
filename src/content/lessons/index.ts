@@ -10,3 +10,7 @@ export { lesson8 } from "./08";
 export { lesson9 } from "./09";
 export { lesson10 } from "./10";
 export { lesson11 } from "./11";
+export { lesson12 } from "./12";
+export { lesson13 } from "./13";
+export { lesson14 } from "./14";
+export { lesson15 } from "./15";

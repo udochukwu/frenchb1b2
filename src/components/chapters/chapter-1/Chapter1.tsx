@@ -7,7 +7,7 @@ import {
   CrossRef,
   Example,
   ExerciseBox,
-  ExerciseItem,
+         ExerciseItem,
   Nb,
   Rich,
   Rule,

@@ -9,6 +9,10 @@ import { chapter8 } from "./08";
 import { chapter9 } from "./09";
 import { chapter10 } from "./10";
 import { chapter11 } from "./11";
+import { chapter12 } from "./12";
+import { chapter13 } from "./13";
+import { chapter14 } from "./14";
+import { chapter15 } from "./15";
 
 export const chapters = [
   chapter1,
@@ -22,4 +26,8 @@ export const chapters = [
   chapter9,
   chapter10,
   chapter11,
+  chapter12,
+  chapter13,
+  chapter14,
+  chapter15,
 ];
