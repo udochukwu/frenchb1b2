@@ -31,7 +31,7 @@ export const overview = [
     roman: "III.",
     title: "Pièges à éviter",
     examples: [
-      "Après avoir appris nos leçons, ils regardaient une émission à la télévision.",
+      "Après avoir appris ses leçons, il a regardé une émission à la télévision.",
       "Nous louons notre poste de télé 8 euros par jour.",
     ],
   },

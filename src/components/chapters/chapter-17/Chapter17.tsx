@@ -238,7 +238,7 @@ function Page142() {
       <Example text="J'habite *à* deux pas d'ici." translation="I live just steps from here (very close to)." />
 
       <SectionBar title="III. Pièges à éviter" />
-      <Gloss fr="Après avoir appris nos leçons, ils regardaient une émission *à* la télévision." en="After learning his lessons, he watched a programme on TV." />
+      <Gloss fr="Après avoir appris ses leçons, il a regardé une émission *à* la télévision." en="After learning his lessons, he watched a programme on TV." />
       <Gloss fr="Nous louons notre poste de télé 8 euros *par* jour." en="We rent our TV 8 euros a day." />
 
       <Subhead text="III. 1 Attention à la traduction de *before* et *after*" />

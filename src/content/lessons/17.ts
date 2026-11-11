@@ -101,7 +101,7 @@ export const lesson17: Lesson = {
         { fr: "Je viendrai te voir *avant* 5 heures. (temps)" },
         { fr: "Je te rencontrerai *devant* le théâtre. (lieu)" },
         { fr: "*Avant de* quitter la salle." },
-        { fr: "Après avoir appris nos leçons, ils regardaient une émission *à* la télévision." },
+        { fr: "Après avoir appris ses leçons, il a regardé une émission *à* la télévision." },
         { fr: "Après *avoir quitté* la pièce…" },
         { fr: "« Après quittant la salle… »" },
       ],
