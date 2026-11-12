@@ -16,8 +16,36 @@ import { chapter15 } from "./15";
 import { chapter16 } from "./16";
 import { chapter17 } from "./17";
 import { chapter18 } from "./18";
+import { chapter19 } from "./19";
+import { chapter20 } from "./20";
+import { chapter21 } from "./21";
+import { chapter22 } from "./22";
+import { chapter23 } from "./23";
+import { chapter24 } from "./24";
+import { chapter25 } from "./25";
+import { chapter26 } from "./26";
+import { chapter27 } from "./27";
+import { chapter28 } from "./28";
+import { chapter29 } from "./29";
+import { chapter30 } from "./30";
 
-export { chapter16, chapter17, chapter18 };
+export {
+  chapter16,
+  chapter17,
+  chapter18,
+  chapter19,
+  chapter20,
+  chapter21,
+  chapter22,
+  chapter23,
+  chapter24,
+  chapter25,
+  chapter26,
+  chapter27,
+  chapter28,
+  chapter29,
+  chapter30,
+};
 
 export const chapters = [
   chapter1,
@@ -38,4 +66,16 @@ export const chapters = [
   chapter16,
   chapter17,
   chapter18,
+  chapter19,
+  chapter20,
+  chapter21,
+  chapter22,
+  chapter23,
+  chapter24,
+  chapter25,
+  chapter26,
+  chapter27,
+  chapter28,
+  chapter29,
+  chapter30,
 ];
